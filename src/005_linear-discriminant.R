@@ -52,7 +52,7 @@ lda_model <- lda(Species ~ ., data = df_train)
 lda_model
 
 plot(lda_model,
-     col = as.integer(df_train[["Species"]])
+  col = as.integer(df_train[["Species"]])
 )
 
 # Evaluation --------------------------------------------------------------
